@@ -21,6 +21,17 @@
             <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
           </ul>
         </div>
+        <button class="btn__menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close">
+            <i class="fa-solid fa-times"></i>
+          </button>
+          <ul>
+            <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
+          </ul>
+        </div>
       </nav>
       <header>
         <div class="header__container">
@@ -87,7 +98,11 @@
             <div class="books">
               <div class="book">
                 <figure class="book__img--wrapper">
-                  <img class="book__img" src="./assets/crack the coding interview.png" alt="" />
+                  <img
+                    class="book__img"
+                    src="./assets/crack the coding interview.png"
+                    alt=""
+                  />
                 </figure>
                 <div class="book__title">Cracking the Coding Inverview</div>
                 <div class="book__ratings">
@@ -103,7 +118,11 @@
               </div>
               <div class="book">
                 <figure class="book__img--wrapper">
-                  <img class="book__img" src="./assets/atomic habits.jpg" alt="" />
+                  <img
+                    class="book__img"
+                    src="./assets/atomic habits.jpg"
+                    alt=""
+                  />
                 </figure>
                 <div class="book__title">Atomic Habits</div>
                 <div class="book__ratings">
@@ -119,7 +138,11 @@
               </div>
               <div class="book">
                 <figure class="book__img--wrapper">
-                  <img class="book__img" src="./assets/david goggins.jpeg" alt="" />
+                  <img
+                    class="book__img"
+                    src="./assets/david goggins.jpeg"
+                    alt=""
+                  />
                 </figure>
                 <div class="book__title">Can't Hurt Me</div>
                 <div class="book__ratings">
@@ -158,7 +181,7 @@
         <div class="container">
           <div class="row">
             <h2 class="section__title">
-              Featured <span class="purple">Books</span>
+              Latest <span class="purple">Books</span>
             </h2>
             <div class="books">
               <div class="book">
@@ -293,6 +316,40 @@
           </div>
         </div>
       </section>
+
+      <section id="explore">
+        <div class="container">
+          <div class="row row__column">
+            <h2>Explore more <span class="purple">Books</span></h2>
+            <a href="#features">
+              <button class="btn">Browse books</button>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+      <div class="container">
+        <div class="row row__column">
+          <a href="#">
+            <figure class="footer__logo">
+              <img
+                src="./assets/Library.svg"
+                class="footer__logo--img"
+                alt=""
+              />
+            </figure>
+          </a>
+          <div class="footer__list">
+            <a href="" class="footer__link">Home</a>
+            <a href="" class="footer__link no-cursor">About</a>
+            <a href="" class="footer__link">Books</a>
+            <a href="" class="footer__link no-cursor">Contact</a>
+          </div>
+          <div class="footer__copyright">Copyright &copy; 2025 Library</div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
